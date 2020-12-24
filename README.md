@@ -1,14 +1,33 @@
 ### 多标签文本分类
 
-- 数据来源：[2020语言与智能技术竞赛：事件抽取任务](https://aistudio.baidu.com/aistudio/competition/detail/32?isFromCcf=true)
+#### 数据集
+
+数据来源：[2020语言与智能技术竞赛：事件抽取任务](https://aistudio.baidu.com/aistudio/competition/detail/32?isFromCcf=true)
+
+#### 模型训练
 
 - 模型结构：采用ALBERT对文本进行特征提取，最大文本长度为200，采用的深度学习模型如下：
 
-![](https://img-blog.csdnimg.cn/20200409220551541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pjbGlhbjkx,size_16,color_FFFFFF,t_70#pic_center)
+![]()
 
 - 模型训练效果如下图：
 
-- 在新数据上进行预测，结果如下：
+![]()
+
+![]()
+
+#### 模型评估
+
+本项目采用hamming loss对多标签分类进行评估，结果如下：
+
+```
+accuracy:  0.7730307076101469
+hamming loss:  0.0037691280681934887
+```
+
+#### 模型预测
+
+在新数据上进行预测，结果如下：
 
 >预测语句: 北京时间6月7日，中国男足在广州天河体育场与菲律宾进行了一场热身赛，最终国足以2-0击败了对手，里皮也赢得了再度执教国足后的首场比赛胜利！
 预测事件类型: 竞赛行为-胜负
