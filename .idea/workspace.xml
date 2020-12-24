@@ -32,26 +32,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/multi-label-classification-for-color-animal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/multi-label-classification-for-color-animal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/data/news_zh_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/add_data_removing_dropout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/albert_configuration.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/albert_large_zh_parameters.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/albert_performance.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/albert_tiny_compare_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/albert_tiny_compare_s_old.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/create_pretraining_data_roberta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/crmc2018_compare_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/shell_scripts/create_pretrain_data_batch_webtext.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/state_of_the_art.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert_zh/resources/xlarge_loss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_genres.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +224,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585897225214</updated>
     </task>
+    <task id="LOCAL-00001" summary="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。">
+      <created>1608780322969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608780322969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -257,5 +247,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。" />
   </component>
 </project>

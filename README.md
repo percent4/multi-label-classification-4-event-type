@@ -8,13 +8,11 @@
 
 - 模型结构：采用ALBERT对文本进行特征提取，最大文本长度为200，采用的深度学习模型如下：
 
-![]()
+![](https://raw.githubusercontent.com/percent4/multi-label-classification-4-event-type/master/multi-label-model.png)
 
 - 模型训练效果如下图：
 
-![]()
-
-![]()
+![](https://raw.githubusercontent.com/percent4/multi-label-classification-4-event-type/master/loss_acc.png)
 
 #### 模型评估
 
