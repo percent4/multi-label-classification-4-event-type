@@ -41,6 +41,7 @@ def evaluate():
         content = [_.strip() for _ in f.readlines()]
 
     true_y_list, pred_y_list = [], []
+    true_label_list, pred_label_list = [], []
     common_cnt = 0
     for i in range(len(content)):
         print("predict %d samples" % (i+1))
@@ -55,13 +56,15 @@ def evaluate():
             common_cnt += 1
         true_y_list.append(true_y)
         pred_y_list.append(pred_y)
+        true_label_list.append(true_label)
+        pred_label_list.append(pred_label)
 
-    return true_y_list, pred_y_list, hamming_loss(true_y_list, pred_y_list), common_cnt/len(true_y_list)
+    return true_label_list, pred_label_list, hamming_loss(true_y_list, pred_y_list), common_cnt/len(true_y_list)
 
 
 # 输出模型评估结果
-y_true, y_pred, h_loss, accuracy = evaluate()
-df = pd.DataFrame({"y_true": y_true, "y_pred": y_pred})
+true_labels, pred_lables, h_loss, accuracy = evaluate()
+df = pd.DataFrame({"y_true": true_labels, "y_pred": pred_lables})
 df.to_csv("pred_result.csv")
 
 print("accuracy: ", accuracy)
