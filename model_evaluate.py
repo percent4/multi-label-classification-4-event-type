@@ -8,7 +8,7 @@ import json
 import numpy as np
 import pandas as pd
 from keras.models import load_model
-from sklearn.metrics import hamming_loss
+from sklearn.metrics import hamming_loss, classification_report
 from att import Attention
 from albert_zh.extract_feature import BertVector
 
@@ -37,7 +37,7 @@ def predict_single_text(text):
 
 # 模型评估
 def evaluate():
-    with open("./data/multi-classification-test.txt") as f:
+    with open("./data/multi-classification-test.txt", "r", encoding="utf-8") as f:
         content = [_.strip() for _ in f.readlines()]
 
     true_y_list, pred_y_list = [], []
@@ -59,6 +59,8 @@ def evaluate():
         true_label_list.append(true_label)
         pred_label_list.append(pred_label)
 
+    # F1值
+    print(classification_report(true_y_list, pred_y_list, digits=4))
     return true_label_list, pred_label_list, hamming_loss(true_y_list, pred_y_list), common_cnt/len(true_y_list)
 
 
