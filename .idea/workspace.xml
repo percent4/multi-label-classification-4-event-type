@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="功能优化：修改model_evaluate.py脚本代码，使模型评估更加合理。">
+    <list default="true" id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="docs: update README.md, 新增模型评估的F1值。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_evaluate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608781097705</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docs: update README.md, 新增模型评估的F1值。">
+      <created>1609046780881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609046780881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -242,28 +247,34 @@
     <MESSAGE value="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。" />
     <MESSAGE value="docs: update README.md" />
     <MESSAGE value="功能优化：修改model_evaluate.py脚本代码，使模型评估更加合理。" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能优化：修改model_evaluate.py脚本代码，使模型评估更加合理。" />
+    <MESSAGE value="docs: update README.md, 新增模型评估的F1值。" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md, 新增模型评估的F1值。" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="193" key="GridCell.Tab.0.bottom" timestamp="1609046324209">
+    <state width="1259" height="193" key="GridCell.Tab.0.bottom" timestamp="1609047184973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609046324209" />
-    <state width="1259" height="193" key="GridCell.Tab.0.center" timestamp="1609046324209">
+    <state width="1259" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609047184973" />
+    <state width="1259" height="193" key="GridCell.Tab.0.center" timestamp="1609047184973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609046324209" />
-    <state width="1259" height="193" key="GridCell.Tab.0.left" timestamp="1609046324209">
+    <state width="1259" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609047184973" />
+    <state width="1259" height="193" key="GridCell.Tab.0.left" timestamp="1609047184973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609046324209" />
-    <state width="1259" height="193" key="GridCell.Tab.0.right" timestamp="1609046324209">
+    <state width="1259" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609047184973" />
+    <state width="1259" height="193" key="GridCell.Tab.0.right" timestamp="1609047184973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609046324209" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1608781099505">
-      <screen x="1920" y="7" width="1920" height="1040" />
+    <state width="1259" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609047184973" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1609046824626">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1609046824626" />
+    <state x="368" y="139" key="Vcs.Push.Dialog.v2" timestamp="1609046783390">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.7.1920.1040@1920.7.1920.1040" timestamp="1608781099505" />
+    <state x="368" y="139" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609046783390" />
   </component>
 </project>

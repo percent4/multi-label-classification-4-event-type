@@ -52,7 +52,7 @@ def evaluate():
                 true_y[i] = 1
 
         pred_y, pred_label = predict_single_text(text)
-        if true_label == pred_label:
+        if set(true_label.split("|")) == set(pred_label.split("|")):
             common_cnt += 1
         true_y_list.append(true_y)
         pred_y_list.append(pred_y)
